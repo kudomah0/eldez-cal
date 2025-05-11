@@ -17,13 +17,19 @@
     "chalk": "^5.3.0",
     "dotenv": "^10.0.0"
   },
-  "keywords": [
-    "gas",
-    "crypto",
-    "cli",
-    "ethereum",
-    "bsc",
-    "polygon",
-    "web3"
-  ]
+  "keywords": ["gas", "crypto", "cli", "ethereum", "bsc", "polygon", "web3"],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "bin": {
+    "gasfee": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/gasfee-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/gasfee-cli/issues"
+  },
+  "homepage": "https://github.com/username/gasfee-cli#readme"
 }
